@@ -19,3 +19,14 @@ def take_a_number (katz_deli, name)
   place = katz_deli.index(name)
   puts "Welcome, #{name}. You are number #{place + 1} in line."
 end
+
+
+def now_serving (katz_deli)
+  
+  if katz_deli.size > 1 do
+    puts "Now serving #{katz_deli[0]}!"
+    katz_deli.pop
+  else 
+    puts "There is nobody waiting to be served!"
+  end
+end  
