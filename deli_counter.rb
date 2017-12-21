@@ -23,7 +23,7 @@ end
 
 def now_serving (katz_deli)
   
-  if katz_deli.size > 1 do
+  if katz_deli.size > 1 then
     puts "Now serving #{katz_deli[0]}!"
     katz_deli.pop
   else 
