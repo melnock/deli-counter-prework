@@ -26,7 +26,6 @@ def now_serving (katz_deli)
   if katz_deli.size > 1 do
     puts "Now serving #{katz_deli[0]}!"
     katz_deli.pop
-   end
   else 
     puts "There is nobody waiting to be served!"
   end
